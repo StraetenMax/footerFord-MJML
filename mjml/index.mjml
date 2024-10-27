@@ -11,22 +11,33 @@
       <meta name="format-detection" content="email=no"/>
     </mj-raw>
     <mj-breakpoint width="480px"></mj-breakpoint>
+    <mj-style>
+      @media (max-width: 480px){
+          .footer-link a{
+              display: block;
+              text-decoration: none;
+              border-bottom: 1px solid ;
+              padding: 8px;
+          }
+          .barre{
+              display: none;
+          }
+      }
+    </mj-style>
   </mj-head>
   <mj-body background-color="#eeeeee">      
     <mj-section padding-left="36px" padding-right="36px" padding-top="24px" background-color="#00095b">
-      <mj-column width="100%">
+      <mj-column>
         <mj-image width="80px" src="https://image.s10.sfmc-content.com/lib/fe35117170640579721572/m/1/e416c64c-385e-41cd-a1ea-ee8285855041.png" alt="logo ford"></mj-image>
       </mj-column>
-      <mj-column width="100%">
-        <mj-navbar base-url="htpps://mjml.io" align="center">
-          <mj-navbar-link href="/#" align="center" font-size="16px" line-height="24px" color="#ffffff" text-transform="none" text-decoration="underline">Unsubscribe <span style="text-decoration:none !important;">&nbsp;&nbsp;|&nbsp;&nbsp;</span></mj-navbar-link>
-          <mj-navbar-link href="/#" align="center" font-size="16px" line-height="24px" color="#ffffff" text-transform="none" text-decoration="underline">Change Email address <span style="text-decoration:none !important;">&nbsp;&nbsp;|&nbsp;&nbsp;</span></mj-navbar-link>
-          <mj-navbar-link href="/#" align="center" font-size="16px" line-height="24px" color="#ffffff" text-transform="none" text-decoration="underline">Contact Us <span style="text-decoration:none;">&nbsp;&nbsp;|&nbsp;&nbsp;</span></mj-navbar-link>
-          <mj-navbar-link href="/#" align="center" font-size="16px" line-height="24px" color="#ffffff" text-transform="none" text-decoration="underline">Privacy notice <span style="text-decoration:none;">&nbsp;&nbsp;|&nbsp;&nbsp;</span></mj-navbar-link>
-          <mj-navbar-link href="/#" align="center" font-size="16px" line-height="24px" color="#ffffff" text-transform="none" text-decoration="underline">Your Privacy Choices <span style="text-decoration:none;">&nbsp;&nbsp;|&nbsp;&nbsp;</span></mj-navbar-link>
-        </mj-navbar>
+    </mj-section>
+    <mj-section padding-left="36px" padding-right="36px" padding-top="24px" background-color="#00095b">
+      <mj-column>
+        <mj-text align="center" font-size="16px" line-height="24px" color="#ffffff" css-class="footer-link"> <span><a style="color:#ffffff;" href="#">Unsubscribe</a> <span class="barre">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span><a style="color:#ffffff;" href="#">Change Email address</a> <span class="barre">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span><a style="color:#ffffff;" href="#">Contact Us</a> <span class="barre">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span><a style="color:#ffffff;" href="#">Privacy Notice</a> <span class="barre">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span><a style="color:#ffffff;" href="#">Your Privacy Choices</a></span></mj-text>
       </mj-column>
-      <mj-column width="100%">
+    </mj-section>
+    <mj-section padding-left="36px" padding-right="36px" padding-top="24px" background-color="#00095b">
+      <mj-column>  
         <mj-text padding-top="24px" align="center" font-size="16px" line-height="24px" color="#ffffff">Ford Motor Company</mj-text>
         <mj-text align="center" font-size="16px" line-height="24px" color="#ffffff">Customer Relationship Center (CRC)</mj-text>
         <mj-text align="center" font-size="16px" line-height="24px" color="#ffffff">P.O. Box 6248</mj-text>

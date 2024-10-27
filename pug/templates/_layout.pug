@@ -10,7 +10,18 @@ mjml
             <meta name="format-detection" content="address=no"/>
             <meta name="format-detection" content="email=no"/>
         mj-breakpoint(width='480px')
-        
+        mj-style. 
+            @media (max-width: 480px){
+                .footer-link a{
+                    display: block;
+                    text-decoration: none;
+                    border-bottom: 1px solid ;
+                    padding: 8px;
+                }
+                .barre{
+                    display: none;
+                }
+            }
     //- Body
     mj-body(background-color="#eeeeee")       
         //- content
@@ -19,5 +30,8 @@ mjml
             block footer 
             include ../includes/_footer
         //- nav footer Ford
-        block nav footer
+            block nav footer
             include ../includes/_navfooter
+        //- responsive footer Ford
+        block responsive footer
+            include ../includes/_responsivefooter
