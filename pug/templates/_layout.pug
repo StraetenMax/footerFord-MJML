@@ -1,0 +1,20 @@
+mjml
+    //- Head
+    mj-head
+        mj-title footer Mjml
+        mj-raw.
+            <meta name="color-scheme" content="light"/>
+            <meta name="supported-color-schemes" content="light"/>
+            <meta name="format-detection" content="telephone=no"/>
+            <meta name="format-detection" content="date=no"/>
+            <meta name="format-detection" content="address=no"/>
+            <meta name="format-detection" content="email=no"/>
+        mj-breakpoint(width='480px')
+        
+    //- Body
+    mj-body(background-color="#eeeeee")       
+        //- content
+        block content
+        //- Footer Ford 
+        block footer 
+            include ../includes/_footer.pug
