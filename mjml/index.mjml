@@ -27,25 +27,19 @@
   </mj-head>
   <mj-body background-color="#eeeeee">      
     <mj-section padding-left="36px" padding-right="36px" padding-top="24px" background-color="#00095b">
-      <mj-column>
+      <mj-column width="100%">
         <mj-image width="80px" src="https://image.s10.sfmc-content.com/lib/fe35117170640579721572/m/1/e416c64c-385e-41cd-a1ea-ee8285855041.png" alt="logo ford"></mj-image>
       </mj-column>
-    </mj-section>
-    <mj-section padding-left="36px" padding-right="36px" padding-top="24px" background-color="#00095b">
-      <mj-column>
-        <mj-text align="center" font-size="16px" line-height="24px" color="#ffffff" css-class="title"> 
-          <ul style="padding:0;margin:0;list-style:none">
-            <li style="display:inline;"><a style="color:#ffffff;" href="#">Unsubscribe</a> <span class="bar">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
-            <li style="display:inline;"><a style="color:#ffffff;" href="#">Change Email address</a> <span class="bar">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
-            <li style="display:inline;"><a style="color:#ffffff;" href="#">Contact Us</a> <span class="bar">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
-            <li style="display:inline;"><a style="color:#ffffff;" href="#">Privacy Notice</a> <span class="bar">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
-            <li style="display:inline;"><a style="color:#ffffff;" href="#">Your Privacy Choices</a></li>
-          </ul>
-        </mj-text>
+      <mj-column width="100%">
+        <mj-navbar base-url="htpps://mjml.io" align="center">
+          <mj-navbar-link href="/#" font-size="16px" line-height="24px" color="#ffffff" text-transform="none" text-decoration="underline">Unsubscribe</mj-navbar-link>
+          <mj-navbar-link href="/#" font-size="16px" line-height="24px" color="#ffffff" text-transform="none" text-decoration="underline">Change Email address </mj-navbar-link>
+          <mj-navbar-link href="/#" font-size="16px" line-height="24px" color="#ffffff" text-transform="none" text-decoration="underline">Contact Us </mj-navbar-link>
+          <mj-navbar-link href="/#" font-size="16px" line-height="24px" color="#ffffff" text-transform="none" text-decoration="underline">Privacy notice </mj-navbar-link>
+          <mj-navbar-link href="/#" font-size="16px" line-height="24px" color="#ffffff" text-transform="none" text-decoration="underline">Your Privacy Choices </mj-navbar-link>
+        </mj-navbar>
       </mj-column>
-    </mj-section>
-    <mj-section padding-left="36px" padding-right="36px" padding-top="24px" background-color="#00095b">
-      <mj-column>  
+      <mj-column width="100%">
         <mj-text padding-top="24px" align="center" font-size="16px" line-height="24px" color="#ffffff">Ford Motor Company</mj-text>
         <mj-text align="center" font-size="16px" line-height="24px" color="#ffffff">Customer Relationship Center (CRC)</mj-text>
         <mj-text align="center" font-size="16px" line-height="24px" color="#ffffff">P.O. Box 6248</mj-text>
